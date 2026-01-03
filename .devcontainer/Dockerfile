@@ -4,7 +4,13 @@ FROM python:3.11-slim
 RUN apt-get update && apt-get install -y \
     git \
     curl \
+    gnupg \
+    lsb-release \
     build-essential \
+    ca-certificates \
+    && curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash \
+    && apt-get update && apt-get install -y git-lfs \
+    && git lfs install --system \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Google Cloud SDK
