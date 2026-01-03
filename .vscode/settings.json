@@ -1,0 +1,32 @@
+{
+	"chat.promptFilesRecommendations": {
+		"speckit.constitution": true,
+		"speckit.implement": true,
+		"speckit.plan": true,
+		"speckit.specify": true,
+		"speckit.tasks": true
+	},
+	"chat.tools.terminal.autoApprove": {
+		".specify/scripts/bash/": true,
+		".specify/scripts/powershell/": true
+	},
+	"css.customData": [".vscode/css-custom-data.json"],
+	"editor.codeActionsOnSave": {
+		"source.addMissingImports": "explicit",
+		"source.fixAll": "explicit",
+		"source.organizeImports.biome": "explicit",
+		"source.removeUnusedImports": "explicit"
+	},
+	"editor.formatOnSave": true,
+	"files.associations": {
+		"*.agent.md": "markdown",
+		"*.instructions.md": "markdown",
+		"*.prompt.md": "markdown"
+	},
+	"github.copilot.chat.commitMessageGeneration.instructions": [
+		{
+			"text": "Your goal is to generate a commit message for the changes in the codebase. The commit message should be clear, concise, and follow conventional commit standards."
+		}
+	],
+	"typescript.tsdk": "node_modules\\typescript\\lib"
+}
