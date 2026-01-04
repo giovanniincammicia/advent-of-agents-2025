@@ -39,6 +39,7 @@ RUN pip install --no-cache-dir \
     pydantic \
     openai \
     streamlit \
+    uv \
     google-cloud-trace \
     google-cloud-logging \
     google-cloud-bigquery \

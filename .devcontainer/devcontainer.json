@@ -23,9 +23,11 @@
         "googlecloudtools.cloudcode",
         "humao.rest-client",
         "github.vscode-pull-request-github",
-        "github.copilot-chat"
+        "github.copilot-chat",
+        "ms-toolsai.jupyter"
       ]
     }
   },
-	"name": "advent-of-agents-2025"
+	"name": "advent-of-agents-2025",
+  "workspaceFolder": "advent-of-agents-2025"
 }
